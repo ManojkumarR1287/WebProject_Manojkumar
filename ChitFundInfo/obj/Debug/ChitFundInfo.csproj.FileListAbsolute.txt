@@ -1,0 +1,5 @@
+E:\Manojkumar R\ASP web forms\ChitFundApplication\ChitFund\ChitFundInfo\bin\Debug\ChitFundInfo.dll
+E:\Manojkumar R\ASP web forms\ChitFundApplication\ChitFund\ChitFundInfo\bin\Debug\ChitFundInfo.pdb
+E:\Manojkumar R\ASP web forms\ChitFundApplication\ChitFund\ChitFundInfo\obj\Debug\ChitFundInfo.csproj.CoreCompileInputs.cache
+E:\Manojkumar R\ASP web forms\ChitFundApplication\ChitFund\ChitFundInfo\obj\Debug\ChitFundInfo.dll
+E:\Manojkumar R\ASP web forms\ChitFundApplication\ChitFund\ChitFundInfo\obj\Debug\ChitFundInfo.pdb

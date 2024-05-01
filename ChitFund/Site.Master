@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ChitFund.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <%-- <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />--%>   <%-- <title><%: Page.Title %> Chit Fund- Details </title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>--%>     <%--<link rel="stylesheet"
+          href="Style.css"/>--%>    <%--<webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />--%>
+
+
+
+    <title>ChitFund New Registration</title>
+     <link rel="stylesheet"
+          href="Style.css"/>
+
+    <style type="text/css">
+        .auto-style1 {
+            width: auto;
+        }
+        .auto-style2 {
+            width: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <form runat="server">
+       <div style="background-color: #006600; font-size: larger; font-weight: bold; color: #FFFFFF; " aria-multiline="True">
+            <br/>
+           <table style="table-layout:fixed;">
+               <tr>
+                   <td style="width:20px"></td>
+                   <td style="width:150px"><asp:HyperLink ID="HyperLink3"  runat="server" ForeColor="White" NavigateUrl="~/ChitFundDetails.aspx" Width="150px">Chit Fund</asp:HyperLink></td>
+                   <td ><asp:HyperLink ID="HyperLink4" runat="server" ForeColor="White" NavigateUrl="~/MemberDetails.aspx" Width="150px">Member</asp:HyperLink></td>
+                   <td style="width:350px"><asp:Label ID="lblUserWelcome"  runat="server"  style="text-align:end; width:250px; text-anchor:end; width:unset"  ></asp:Label></td>
+                    <td style="width:150px"><asp:HyperLink ID="hlLogout" runat="server" ForeColor="White" NavigateUrl="~/LogIn.aspx" Width="150px">LogOut</asp:HyperLink></td>
+               </tr>
+           </table>
+           <br/>
+            </div>
+        <div>
+
+        
+
+            <table style="width:100%;">
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td> <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+        
+
+            </div>
+        <div class="container body-content">
+           
+            <hr style="height: 1px" />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %>- My ASP.NET Application</p>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>
